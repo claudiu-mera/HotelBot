@@ -16,10 +16,10 @@ namespace HotelBot.Models
 
     public enum AmenitiesOptions
     {
-        Kitchen,
-        ExtraTowels,
-        GymAccess,
-        Wifi
+        Kitchen = 1,
+        ExtraTowels = 2,
+        GymAccess = 3,
+        Wifi = 4
     }
 
     [Serializable]
