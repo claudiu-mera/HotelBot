@@ -13,7 +13,7 @@ namespace HotelBot.Dialogs
     {
         public async Task StartAsync(IDialogContext context)
         {
-            await context.PostAsync("Hi, I'm John Bot");
+            await context.PostAsync("Hi, I'm Hotel Bot");
             await Respond(context);
 
             context.Wait(MessageReceivedAsync);
